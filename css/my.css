@@ -4,7 +4,19 @@
 
 @media (min-width: 800px) {
   body {
-    color: blue;
+    background-color: gray;
   }
 }
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 500px) { .col_sm {color: red; text-decoration: line-through;} }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 700px) { .col_md {color: green} }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 900px) { .col_lg {color: blue} }
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1000px) { .col_xl {color: white}} }
+
 
