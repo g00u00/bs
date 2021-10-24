@@ -1,3 +1,10 @@
 * {
     border-style: ridge;
+  }
+
+@media (min-width: 500px) {
+  body {
+    color: blue;
+  }
 }
+
